@@ -1,0 +1,23 @@
+name: freefire_gps_flutter
+description: Flutter client for real‑world GPS Battle Royale
+publish_to: 'none' # this is a private package
+version: 0.1.0
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  socket_io_client: ^2.0.3
+  google_maps_flutter: ^2.5.0
+  location: ^5.0.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
